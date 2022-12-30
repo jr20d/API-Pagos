@@ -1,0 +1,13 @@
+server:
+  error:
+    include-binding-errors: always
+
+spring:
+  application:
+    name: pagos
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+
+stripe:
+  apiKey: API_KEY
